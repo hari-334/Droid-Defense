@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "style.css" rel = "stylesheet">
+    <title>Droid Defense</title>
+</head>
+<body>
+    <video autoplay loop plays-inline class="backgroundVideo">
+        <source src = "Space.mp4" type="video/mp4">
+    </video>
+    <h1 class = "heading">Droid Defense</h1>
+    <div class = "canvasDiv">
+        <canvas class = "gameCanvas" width = "700" height = "700" ></canvas>
+    </div>
+    
+    <div class = "gameScore">Score: <span class = "score">0</span></div>
+    <div class = "healthText">Home Health:</div>
+    <div class = "healthContainer">
+        <div class = "healthBar"></div>
+    </div>
+    <button class = "pauseBtn">Pause</button>
+    <script src = "game.js"></script>
+    
+</body>
+</html>
